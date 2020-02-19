@@ -1,0 +1,13 @@
+[run]
+source =
+    lewis_ophyd_playground
+[report]
+omit =
+    */python?.?/*
+    */site-packages/nose/*
+    # ignore _version.py and versioneer.py
+    .*version.*
+    *_version.py
+
+exclude_lines =
+    if __name__ == '__main__':
